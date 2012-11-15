@@ -1,5 +1,13 @@
-﻿
-<?php
+﻿<!DOCTYPE html>
+	<html>
+	<head>
+		<meta charset ="UTF-8"/>
+	<title>Exercicio 2     </title>
+	<h1>exercicio    2</h1>
+	</head>
+	<body>
+	
+	<?php
  
 /*2.	Depois da tag <h1> criar uma div #conteudo e nela adicionar o seguinte código PHP: 
  $nome1 = “Fulano”;
@@ -60,3 +68,12 @@ Senão mostrar uma mensagem dizendo que a equipe é mista;*/
 
 
  ?>
+
+	</body>
+	<html>
+
+
+
+
+
+

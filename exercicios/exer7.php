@@ -5,11 +5,12 @@
 	<title>    </title>
 	</head>
 	<body>
-	#codigo PHP
-
+	
+<?php
 
 //7.	Descrever a sua funcionalidade e fazer exemplos das seguintes funções do PHP:
-a) array() 
+
+/*a) array() 
 b) trim()
 c) substr()
 d) strtolower()
@@ -35,6 +36,8 @@ w) sqrt()
 x) str_replace()
 y) count()
 z) htmlentities(
+<?php
+?>
 <?php
 	/*Um array no PHP é atualmente um mapa ordenado. Um mapa é um tipo que 
 	relaciona valores para chaves. Este tipo é otimizado de várias maneiras,

@@ -1,25 +1,22 @@
-﻿<?php
-
-	$title = "Site.com";
-	$subtitle ="este é um site em PHP";
-?>
+﻿
 
 <!doctype.<html>
 
 <html>
 <head>
 	<meta charset="utf-8"> 
-	<title>
-	<?php
-	echo $title ." este é um site em PHP ".$subtitle;
+	<title>Exercicio 1 </title>
+	<h1>exercicio 1 </h1>
 
-?>
-</title>
 
 </head>
 
 	<body>
 		<?php
+		$title = "Site.com";
+			$subtitle ="este é um site em PHP";
+				
+	
 		echo $title ."   ".$subtitle."<br/>";
 	?>
 
