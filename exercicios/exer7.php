@@ -2,7 +2,8 @@
 	<html>
 	<head>
 		<meta charset ="UTF-8"/>
-	<title>    </title>
+	<title>Exercicio 7    </title>
+	<h1> exercicio 7 <h1>
 	</head>
 	<body>
 	
@@ -47,14 +48,35 @@ z) htmlentities(
 A explicação dessas estruturas estão além do escopo desse manual, mas você pode encontrar exemplos 
 para cada uma dessas estruturas a seguir. Para mais informações sobre estruturas, refira-se a literatura
  externa sobre esses tópicos.*/
- 
+ 		# A
 $array = array(1, 1, 1, 1,  1, 8 => 1,  4 => 1, 19, 3 => 13);
 print_r($array);
 
 ?>
-	
+	<?php
+	# B
+//	trim — Retira espaço no ínicio e final de uma string
+		$var = "                String com sobras                ";
+		
+		echo " $var </br>"
+?>
+
+<?php
+	//substr — Return part of a string
+	# C =
+	$rest = substr("abcdef", -5);    // returns "a,b,c,d,f"
+	echo "$rest </br>"
+
+?>
+	<?php
+	//strtolower — Make a string lowercase
 
 
+
+$str = "Mary Had A Little Lamb and She LOVED It So";
+$str = strtolower($str);
+echo $str; // Prints mary had a little lamb and she loved it so
+?>
 
 
 
