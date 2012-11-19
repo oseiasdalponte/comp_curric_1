@@ -43,35 +43,31 @@ print_r($array);
 <?php
 		echo "<h2>LETRA D</h2>";
 
-$array[] = "www.adianti.com.br";
-$array[] = "www.pablo.blog.br";
-$array[] = "www.php-gtk.com.br";
-
+$array[] = " 0";
+$array[] = " 1";
+$array[] = " 2 ";
+$array[] ="3";
 print_r(implode(':', $array))
 
 
 ?>
 <?php
 	echo "<h2>LETRA E</h2>";
-	$integer =  4;
-	echo (float)$integer;
 	
+		$int = (float) 11;
+
+			echo var_dump($int);
+
+?>
+
 ?>
 <?php
 	echo "<h2>LETRA F</h2>";
+		$float = 11.09;
 
-$float = (string) 1.77;
-
-var_dump( $float ); 
-?>
-
-
-<?php
-
-
+			echo "R$".number_format($float, 2, ',', '.');
 
 ?>
-
 
 </body>
 	<html>

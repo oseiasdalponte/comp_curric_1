@@ -14,7 +14,7 @@
 	<body>
 		<?php
 		$title = "Site.com";
-			$subtitle ="este é um site em PHP";
+			$subtitle ="Este é um site em PHP";
 				
 	
 		echo $title ."   ".$subtitle."<br/>";
