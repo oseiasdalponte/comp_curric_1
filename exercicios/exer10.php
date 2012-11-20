@@ -1,23 +1,41 @@
-<!DOCTYPE html>
-	<html>
-	<head>
-		<meta charset ="UTF-8"/>
-	<title>    </title>
-	</head>
-	<body>
-	
 <?php
-/*10.	No formulário do item 9, criar as seguintes validações:
-a) verificar se o campo está vazio, caso verdadeiro informar ao usuário (em campos obrigatórios)
-b) para o campo “email” deve verificar se ele realmente é um e-mail
-c) retirar as tags html, script, php, dos campos com strip_tags()
-d) criptografar o campo password com a função md5()*/
+  
+  //$_POST = variavel global
+    
+  
+    
+  //se for enviado um post e a variavel não é vazia mostrar os seguintes dados:
+    
+  if (isset($_POST["pagina"]) && $_POST["pagina"] == "contato") {
+   
+  echo $_POST["nome"]."</br>";
+   
+  echo $_POST["email"]."</br>";
+     
+  echo $_POST["senha"]."</br>";
+    
+  echo md5($_POST["senha"])."</br>";
+    
+  echo $_POST["sex"]."</br>";
+  
+  echo $_POST["religião"]."</br>";
 
+    
+  echo $_POST["mensagem"]."</br>";
+    
+
+   
+  }
+   
+  //senão redirecionar para a pagina de contato
+   
+ else{
+  
+    header("Location: exer9.php");
+   
+  }
+  
+
+ 
 ?>
-
-
-
-
-
-	</body>
-	<html>
+ 
