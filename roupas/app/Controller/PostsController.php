@@ -43,7 +43,7 @@ class PostsController extends AppController {
 	 		#se conseguir salvar,mostar MSG e redirecionar para o index 
 	 		if($this->Post->save($dadosDoFormulario)){
 	 			#mostrar MSG
-	 			$this->Session->setFlash("A postagem foi inserida com sucesso");
+	 			$this->Session->setFlash("A roupas foram inserida com sucesso");
 	 			#redirecionar para o index 
 	 			$this->redirect(array('action'=>'index'));
 	 		}
@@ -56,7 +56,7 @@ public function edit($id = null) {
         		$this->request->data = $this->Post->read();
     		} else {
         		if ($this->Post->save($this->request->data)) {
-            		$this->Session->setFlash('Post alterado com sucesso!');
+            		$this->Session->setFlash(' Roupas Alterado  com sucesso!');
 	            	$this->redirect(array('action' => 'index'));
     	    	}
     		}
@@ -67,7 +67,7 @@ public function edit($id = null) {
     	    	throw new MethodNotAllowedException();
 		    }
     		if ($this->Post->delete($id)) {
-        		$this->Session->setFlash('O post com id ' . $id . ' foi deletado.');
+        		$this->Session->setFlash('roupa com id' . $id . ' foi deletado.');
 	        	$this->redirect(array('action' => 'index'));
     		}
 		}

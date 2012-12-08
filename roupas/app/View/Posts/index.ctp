@@ -35,9 +35,9 @@
 					<!--<a href="/post">Visualizar</a> -->
 					
 				
-					<?php echo $this->Html->link
-					("Visualizar", array('controller' => 'posts', 'action' => 'view',
-						 $post["Post"]["id"]),array('<class' => 'btn'));?>
+					<?php echo $this->Html->link("Visualizar", array('controller' => 'posts', 'action' => 'view',
+						 $post["Post"]["id"]),array('<class' => '.btn btn-primary'));?>
+
 				</td>
         		<td>
 
@@ -45,7 +45,7 @@
 						 $post["Post"]["id"]),  array('class' => 'btn btn-info'));?>
 				</td>
 				<td>
-					<?php echo $this->Form->postLink('Deletar', array('action' => 'delete', $post['Post']['id']), array('class' => 'btn btn-warningr'));?>
+					<?php echo $this->Form->postLink('Deletar', array('action' => 'delete', $post['Post']['id']), array('class' => 'btn btn-danger'));?>
 					
         		</td>
 			</tr>
